@@ -166,11 +166,17 @@ body {
 
 .hero-baner {
     margin-right: 0;
+    margin-bottom: 96px;
 }
 
-.hero-wrap-btlink {}
+.hero-wrap-btlink {
+    display: flex;
+    align-items: center;
+}
 
 .hero-link {
+    display: inline-flex;
+    align-items: center;
     font-weight: 600;
     font-size: 16px;
     text-decoration: underline;
@@ -191,8 +197,210 @@ body {
     font-size: 16px;
     color: #fff;
     margin-right: 30px;
+    padding: 14px 0;
 }
 
 .hero-img {
     display: inline-block;
 }
+
+
+/* Hero finish */
+
+/* Product start */
+.product {
+    padding-bottom: 50px;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    max-width: 539px;
+    padding: 0 20px;
+    margin: 0 auto 50px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 50px;
+   
+}
+
+.product-item {
+    width: 255px;
+    padding: 0;
+    margin: 0;
+}
+
+.image-wrap {
+    width: 54px;
+    height: 54px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cursor {
+    background-color: #02897a;
+}
+
+.line {
+    background-color: #4d8dff;
+}
+
+.heart {
+    background-color: #740a76;
+}
+
+.clock {
+    background-color: #f03e3d;
+}
+
+.icon-product {
+    fill: #fff;
+
+}
+
+.product-list-title {
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+
+.button-type.product-button {
+    display: block;
+    margin: 0 auto 
+}
+
+.product-wrap {}
+
+.product-list-text {}
+
+/* Product finish */
+
+/* Managment start */
+.manag,
+.collab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.management {
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.manag-title,
+.collaboration-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.manag-list,
+.collaboration-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 486px;
+}
+
+.manag-item {}
+
+.manag-text {}
+
+.manag-list-title,
+.collaboration-list-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.manag-img {}
+
+/* Managment finish */
+
+/* Support start */
+.supp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support {
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.support-img {}
+
+.support-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;gap: 25px;
+    max-width: 455px;
+}
+
+.support-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 304px;
+}
+.support-wrap-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+.support-text {
+    max-width: 437px;
+}
+.support-item .support-text {
+    max-width: 385px;
+}
+
+.support-list {
+  
+}
+
+.support-item {
+    display: flex;
+    justify-content: center ;
+    align-items:center ;
+    gap: 25px;margin-bottom: 25px;
+
+}
+
+.tick {
+    border: 2.92px solid #fff;
+    border-radius: 14px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color:  #f90;
+}
+
+.icon-tick {
+    fill: #fff;
+}
+
+.brown {
+    background-color:  #f03e3d;
+}
+
+.blue {
+    background-color: #4d8dff;}
