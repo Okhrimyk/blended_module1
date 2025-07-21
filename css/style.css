@@ -404,3 +404,389 @@ body {
 
 .blue {
     background-color: #4d8dff;}
+
+/* Staff start */
+
+.staff {
+    padding-top:150px ;
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.staff-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* .staff-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.staff-text {
+    margin-bottom: 40px;
+}
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    gap: 25px 100px;
+    padding: 0 73px;
+}
+
+
+.staff-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 408px;
+    height: 98px;
+}
+
+.staff-item-text-wrap {
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+    width: 281px;
+    height: 50px;
+}
+.staff-item-text {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 20px;
+}
+
+.staff-item-photo {}
+
+.button-type {}
+
+.staff-buttom {
+    min-width: 216px;
+    min-height: 53px;
+    margin: 0 auto;
+    display: block;
+}
+ 
+/* Staff finish */
+
+/* News Feed start*/
+
+.mews-feed {
+    padding-bottom: 171px;
+}
+
+.container {}
+
+.feed-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.feed-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    margin-bottom: 40px;
+    max-width: 465px;
+}
+
+.feed-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.feed-item {
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    min-width: 350px;
+    min-height: 359p;
+    padding-bottom: 40px;
+}
+
+.feed-item-img {
+    margin-bottom: 24px;
+}
+
+.feed-item-text {
+    font-size: 16px;
+    line-height: 1.75;
+    padding-left: 24px;
+    margin-bottom: 12px;
+
+}
+
+.feed-item-text-span {
+    font-weight: 700;
+}
+
+.feed-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    width: 100%;
+    padding: 0 27px;
+}
+
+/* News Feed finish */
+
+/* Pricing srart */
+
+.pricing {
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pricing-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pricing-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.pricing-item {
+    border-radius: 8px;
+    min-width: 322px;
+    min-height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    /* background-color: #fff; */
+    padding: 32px 0;
+}
+
+.pricing-rate {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+    margin-bottom: 16px;
+}
+
+.price-wrap {}
+
+.price-sign {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.price-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.coast-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.pricing-list-point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.point-item {}
+
+.point-item-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.pricing-list-btn {
+    border-radius: 8px;
+    width: 139px;
+    background-color: #02897a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 11px 18px;
+}
+.center {
+    color: #02897a;
+    background-color: #fff;
+}
+
+.center-item {
+    background-color: #02897a;;
+}
+.center-card {
+    color: #fff;
+}
+
+/* Pricing finish */
+
+/* Feedback start */
+
+.feedback {
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.fback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fback-text {
+    display: block;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin:0 auto 40px auto;
+    max-width: 537px;
+}
+
+.fback-list {
+    display: flex;
+    gap: 64px;
+}
+
+.fback-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 30px 35px;
+    min-width: 327px;
+    padding: 26px;
+
+}
+
+.fback-list-icon {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.fback-icon {
+    fill: #f3cd03;
+}
+
+.fback-list-text {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+
+}
+
+.fback-img-wrap {
+    display: flex;
+    gap: 16px;
+}
+
+.fback-img-wrap-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.fback-img-wrap-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.01em;
+}
+
+/* Feedback finish */
+
+/* Promo start */
+
+.promo {
+    padding-bottom: 100px;
+}
+
+.container.promo-wrap-container { 
+    padding: 0 90px;
+}
+
+.promo-container {
+    max-width: 968px;
+    border-radius: 32px;
+    background-color: #02897a;
+    display: flex;
+    gap: 10px;
+    padding: 4px 46px 10px 51px;
+}
+
+.promo-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    max-width: 510px;
+    margin-top: 49px;
+    margin-bottom: 46px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
